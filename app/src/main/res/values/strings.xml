@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WidgetTest</string>
+    <string name="app_name1">WidgetTest2</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_widget_4_1">Our Widget 4x1</string>
+    <string name="app_widget_2_2">Our Widget 2x2</string>
+    <string name="btn_send_text">Send Text</string>
+</resources>

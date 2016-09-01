@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello_world" />
+
+        <in.vaksys.widgettest.SpeedometerGauge
+            android:layout_marginTop="50dp"
+            android:id="@+id/speedometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <in.vaksys.widgettest.BatteryIndicatorGauge
+            android:id="@+id/batteryindicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <in.vaksys.widgettest.CircularProgressBar
+            android:id="@+id/circularprogress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <in.vaksys.widgettest.CircledTextView
+            android:id="@+id/abc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Helo sd fkjsdhgka dsagkj  sdj "
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
